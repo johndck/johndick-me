@@ -1,0 +1,50 @@
+/* Stylesheet for johndick.me site */
+
+/* Fonts */
+
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora/Lora-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora/Lora-SemiBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Lora";
+  src: url("../fonts/Lora/Lora-SemiBoldItalic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("../fonts/Jetbrains/JetBrainsMono-Regular.ttf") format("truetype");
+}
+
+:root {
+  /* === CSS Variables === */
+
+  --siteblue: rgba(20, 110, 246, 1);
+  --btnText: white;
+  --btnHover: orange;
+  --cardgrey: rgba(224, 224, 224, 1);
+  --tagtext: white;
+  --tagcolor: black;
+  --sitecontrastblue: rgba(191, 207, 233, 1);
+
+  font-size: 16px;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* resetting everything in the browser */
+* {
+  margin: 0;
+  padding: 0;
+}
